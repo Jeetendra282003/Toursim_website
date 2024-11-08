@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container1 {
+    background-image: url("https://i.ytimg.com/vi/K4RWOa-JT8g/maxresdefault.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.home-card1 {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 24px;
+}
+
+.home-heading {
+    font-family: "Caveat";
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.home-paragraph {
+    color: grey;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+
+.bg-container2 {
+    background-image: url("https://www.thrillophilia.com/blog/wp-content/uploads/2014/07/Darjeeling-toytrain.jpg");
+    background-size: cover;
+}
+
+.tourism-card {
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 24px;
+    padding: 5px;
+
+}
+
+.image-size {
+    height: 200px;
+    width: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: white;
+    margin: 5px;
+}
+
+.text-arrange {
+    margin: 3px;
+    padding: 3px;
+    width: 70vw;
+}
+
+.bg-container3 {
+    background-image: url("https://wallpapercave.com/wp/wp5148323.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.card-heading {
+    color: black;
+    font-family: "Roboto";
+    font-size: 25px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.tourism-paragraph {
+    color: grey;
+    font-family: "Roboto";
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.carousel-size {
+    height: 50vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.box-view {
+    margin: 50px;
+}

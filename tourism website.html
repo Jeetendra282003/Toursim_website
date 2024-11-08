@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="section1">
+        <div class="bg-container1 d-flex flex-column justify-content-end">
+            <div class="home-card1 ">
+                <h1 class="home-heading"> Tourism </h1>
+                <p class="home-paragraph"> Travel not to escape life, but so life doesn't escape you. </p>
+                <button class="btn btn-primary" onclick="display('section2')">
+                    Get Started
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="section2">
+        <div class="bg-container2">
+            <h1 class="home-heading"> Favourite Places </h1>
+            <div class="tourism-card d-flex flex-row" onclick="display('section3.1')">
+                <div class="text-arrange">
+                    <h1> Tirumala </h1>
+                    <p>
+                        Sri Venkateswara Swami Vaari Temple is a Hindu temple situated in the hill town of Tirumala at Tirupati in Tirupati district of Andhra Pradesh, India.
+                        These are the two angels guarding the wealth and treasure of Lord Sri Venkateswara. As per the tradition these are installed at the third entrance of the temple. One enters the holy shrine after saluting the first protection threshold - Sankha Nidhi and Padma Nidhi. According to history, these statues were consecrated by Vijayanagara emperor Achyutha Rayalu, the younger brother of Sri Krishna Deva Rayalu
+                    </p>
+                </div>
+                <img src="https://cdn.britannica.com/22/156222-050-BEE18768/Sri-Venkateswara-Swamy-Temple-Tirumala-Tirupati-India.jpg" class="image-size d-flex flex-row justify-content-end" />
+            </div>
+            <div class="tourism-card d-flex flex-row" onclick="display('section3.2')">
+                <div class="text-arrange">
+                    <h1> Shimla </h1>
+                    <p>
+                        One of the most stunning hill resorts, Shimla is one of the most popular hill stations in northern India. Situated at an altitude of 2,205 meters, it used to be the summer capital of British India with a well-planned architecture.The town is famous for pleasant walking experiences on hillsides surrounded by pine and oak forests. This capital city of Himachal Pradesh is famous for The Mall, ridge, and toy train. With colonial style buildings, the town has relics of ancient past that lend it a distinct look.
+                    </p>
+                </div>
+                <img src="https://www.wendywutours.com.au/resource/upload/1283/banner-shimla.jpg.webp" class="image-size d-flex flex-row justify-content-end" />
+            </div>
+            <div class="tourism-card d-flex flex-row" onclick="display('section3.3')">
+                <div class="text-arrange">
+                    <h1> Maldives </h1>
+                    <p>
+                        Maldives, in full Republic of Maldives, also called Maldive Islands, independent island country in the north-central Indian Ocean.The Maldivian Archipelago is located on the Chagos–Laccadive Ridge, a vast submarine mountain range in the Indian Ocean; this also forms a terrestrial ecoregion, together with the Chagos Archipelago and Lakshadweep.
+                    </p>
+                </div>
+                <img src="https://cdn.gulte.com/wp-content/uploads/2021/04/Maldives.jpg" class="image-size d-flex flex-row justify-content-end" />
+            </div>
+            <div class="tourism-card d-flex flex-row" onclick=display('section3.4')>
+                <div class="text-arrange">
+                    <h1>Kerala</h1>
+                    <p>
+                        Kerala, southwestern coastal state of India. It is a small state, constituting only about 1 percent of the total area of the country.Kerala is a tropical paradise where you can paddle in tranquil backwaters, trek the rocky Western Ghats, chase the mists in the hill stations, rejuvenate with pristine Nature and Ayurvedic treatments, hug the unspoiled beaches and so much more.
+                    </p>
+                </div>
+                <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2019/07/Cover-for-Photography-Places-In-Kerala.jpg" class="image-size" />
+            </div>
+            <button class="btn btn-dark" onclick="display('section1')">
+                Back
+            </button>
+        </div>
+    </div>
+    <div id="section3.1">
+        <div class="bg-container3">
+            <h1 class="home-heading"> Detailed view </h1>
+            <div class="box-view">
+                <div class="tourism card">
+                    <div id="carousel1" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel1" data-slide-to="1"></li>
+                            <li data-target="#carousel1" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://www.thenewsminute.com/sites/default/files/Tirumala_Venkateswara_temple_entrance_Nikhil%20B%20-%20Wikimedia%20Commons1200x800.jpg" class="d-block w-100 carousel-size " alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://www.hindubhagwan.com/Gallery/images/portfolio/full/venkateswara_images.jpg" class="carousel-size" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://cdn.mwallpapers.com/photos/religious/lord-perumal/lord-perumal-best-hd-photos-1080p-mmetqb.jpg" class="carousel-size" alt="...">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div>
+                        <h1 class="card-heading"> Tirumala </h1>
+                        <p class="tourism-paragraph "> Lord Sri Venkateswara, also known as Srinivasa, Balaji, and Veṅkaṭachalapati, made Tirumala his abode five thousand years ago. Even before him, it was Lord Varahaswami who had made Tirumala his abode. Since then, many devotees have continued to construct grand entrances on the ramparts of the temple over generations. The temple complex is spread over 16.2 acres of land.In Tirumala, the East facing Sri Varahaswami temple is located in the North West corner of the temple tank - Swami Pushkarini. As per the temple legend, Lord Srinivasa sought a gift of land from Sri Varahaswami, which he readily granted.
+                            In return, Srinivasa provided him with an agreement deed assuring that he would be paid the first darshan, worship and offerings by all the devotees visiting the temple. This tradition is in practise to this day at Tirumala and Lord Varahaswami continues to receive the age old traditional worship. Even today, all offerings are first made to Lord Varahaswami and then to Lord Sri Venkateswara.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('section2')"> Back </button>
+        </div>
+    </div>
+    <div id="section3.2">
+        <div class="bg-container3">
+            <h1 class="home-heading"> Detailed view </h1>
+            <div class="box-view">
+                <div class="tourism card">
+                    <div id="carousel2" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel2" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel2" data-slide-to="1"></li>
+                            <li data-target="#carousel2" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://i.pinimg.com/736x/0b/4c/a4/0b4ca4d5091ffed3866841541a637079--shimla-backgrounds-hd.jpg " class="carousel-size" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://web.s-cdn.boostkit.dev/webaction-files/5ac4f587beef72050ad4e284_product_images/istockphoto-1302220319-170667a-62c594863034ceb26b3aa79a.jpg" class="carousel-size" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://media.istockphoto.com/photos/shimla-picture-id1339403908?b=1&k=20&m=1339403908&s=170667a&w=0&h=8cOxpbyo34Jfkzcgpw6VDpRXewelKMEs5J0DYXSUpEs=" class="carousel-size" alt="...">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div>
+                        <h1 class="card-heading"> Shimla </h1>
+                        <p class="tourism-paragraph"> Shimla is known as a capital state of the Himachal. Shimla was discovered as a Hill station by the British. Shimla is a beautiful and the most visited Hill Station in India. People can visit Shimla at any season because it always has a pleasant weather except monsoon. Shimla records a huge amount of tourist visit throughout the year. If one visits Shimla in winters, then he can enjoy the adventure sports like Skiing and Ice Skating. You can admire the snow capped mountains and valleys and a walk through the Oak and the pine trees. One will admire the amidst and splendid natural beauty of Shimla and will love to visit again and again.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('section2')"> Back </button>
+        </div>
+    </div>
+    <div id="section3.3">
+        <div class="bg-container3">
+            <h1 class="home-heading"> Detailed view </h1>
+            <div class="box-view">
+                <div class="tourismm card">
+                    <div id="carousel3" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel3" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel3" data-slide-to="1"></li>
+                            <li data-target="#carousel3" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://hblimg.mmtcdn.com/content/hubble/img/dest_img/mmt/activities/m_Maldives_dest_landscape_l_755_1487.jpg" class="carousel-size" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://kandima.com/images/Screenshot_2022-04-27_at_161015.png" class="carousel-size" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://hblimg.mmtcdn.com/content/hubble/img/new_dest_imagemar/mmt/activities/m_Maldives_3_l_1383_2048.jpg" class="carousel-size" alt="...">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carousel3" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel3" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div>
+                        <h1 class="card-heading"> Maldives</h1>
+                        <p class="tourism-paragraph"> Maldives, in full Republic of Maldives, also called Maldive Islands, independent island country in the north-central Indian Ocean. It consists of a chain of about 1,200 small coral islands and sandbanks (some 200 of which are inhabited), grouped in clusters, or atolls.The islands extend more than 510 miles (820 km) from north to south and 80 miles (130 km) from east to west. The northernmost atoll is about 370 miles (600 km) south-southwest of the Indian mainland, and the central area, including the capital island of Male (Male’), is about 400 miles (645 km) southwest of Sri Lanka</p>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('section2')"> Back </button>
+        </div>
+    </div>
+    <div id="section3.4">
+        <div class="bg-container3">
+            <h1 class="home-heading"> Detailed view </h1>
+            <div class="box-view">
+                <div class="tourism card">
+                    <div id="carousel4" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel4" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel4" data-slide-to="1"></li>
+                            <li data-target="#carousel4" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://tours.tripexplorer.com/wp-content/uploads/2018/11/Gods-Own-1.jpg" class="d-block w-100 carousel-size " alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://thetravelhack.com/wp-content/uploads/2020/06/Kerala-backwaters.jpeg.webp" class="carousel-size" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://media.istockphoto.com/photos/tea-plantations-and-river-in-hills-kerala-india-picture-id511119924?k=20&m=511119924&s=612x612&w=0&h=rvf_RR1Wz1fSEn5KPZJXuQ-GqDmFI9Pj_LfUFcVbpik=" class="carousel-size" alt="...">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carousel4" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel4" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div>
+                        <h1 class="card-heading"> Kerala </h1>
+                        <p class="tourism-paragraph"> Kerala, southwestern coastal state of India. It is a small state, constituting only about 1 percent of the total area of the country. Kerala stretches for about 360 miles (580 km) along the Malabar Coast, varying in width from roughly 20 to 75 miles (30 to 120 km). It is bordered by the states of Karnataka (formerly Mysore) to the north and Tamil Nadu to the east and by the Arabian Sea to the south and west; it also surrounds Mahe, a segment of the state of Puducherry, on the northwestern coast. The capital is Thiruvananthapuram (Trivandrum).
+                            Although isolated from the Indian interior by the mountainous belt of the Western Ghats, Kerala has been exposed to many foreign influences via its long coastline; consequently, the state has developed a unique culture within the subcontinent, not only with a diverse religious tradition but also with its own language, Malayalam. Also notable is the high social status that continues to be accorded to women of Kerala, owing to the former strength of a matrilineal kinship system. Area 15,005 square miles (38,863 square km). Pop. (2011) 33,387,677.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('section2')"> Back </button>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
